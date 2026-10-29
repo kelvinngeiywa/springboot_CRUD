@@ -1,0 +1,33 @@
+### GET request to example server
+GET http://localhost:8080/api/books
+
+###
+
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "book1",
+  "author": "Author1",
+  "price": 345.78
+}
+
+###
+GET http://localhost:8080/api/books/3
+
+###
+PUT http://localhost:8080/api/books/5
+Content-Type: application/json
+
+{
+  "title": "Computer Science",
+  "author": "kelvin",
+  "price": 350
+}
+
+###
+
+DELETE http://localhost:8080/api/books/3
+
+
+
